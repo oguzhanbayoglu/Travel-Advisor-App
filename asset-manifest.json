@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Travel-Advisor-App/static/css/main.b7b5e888.css",
-    "main.js": "/Travel-Advisor-App/static/js/main.21382304.js",
+    "main.js": "/Travel-Advisor-App/static/js/main.ae2e3b49.js",
     "index.html": "/Travel-Advisor-App/index.html",
     "static/media/logo.svg": "/Travel-Advisor-App/static/media/logo.2f8d746da4f5bb994a90bf6a6a0542ce.svg",
     "main.b7b5e888.css.map": "/Travel-Advisor-App/static/css/main.b7b5e888.css.map",
-    "main.21382304.js.map": "/Travel-Advisor-App/static/js/main.21382304.js.map"
+    "main.ae2e3b49.js.map": "/Travel-Advisor-App/static/js/main.ae2e3b49.js.map"
   },
   "entrypoints": [
     "static/css/main.b7b5e888.css",
-    "static/js/main.21382304.js"
+    "static/js/main.ae2e3b49.js"
   ]
 }
