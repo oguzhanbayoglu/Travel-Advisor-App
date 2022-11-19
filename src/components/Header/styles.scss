@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Albert Sans";
+}
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #121212;
+  color: #ffffff;
+  padding: 0.3rem 0 0.3rem 0;
+  .header {
+    margin-left: 0.7rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    img {
+      height: 2rem;
+      margin-right: 1rem;
+    }
+  }
+  .box {
+    height: 2rem;
+    align-items: center;
+    h4 {
+      margin-right: 1rem;
+    }
+    .search {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: #f1f1f1dc;
+      border-radius: 2rem;
+      height: 2.2rem;
+      color: black;
+      ::placeholder {
+        color: black;
+      }
+      .search-icon {
+        margin: 1rem;
+        margin-top: 1.2rem;
+        color: #000;
+      }
+    }
+  }
+}

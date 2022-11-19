@@ -1,0 +1,41 @@
+.map {
+  height: 90vh;
+  width: 100%;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: #121212;
+
+  iframe {
+    background-color: #121212;
+  }
+
+  .map-card {
+    background-color: #0000003d;
+    backdrop-filter: blur(25px);
+    border-radius: 0.5rem;
+    height: 6rem;
+    width: 12rem;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 10px 10px #00000009;
+    .map-details {
+      padding: 0.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .map-card-image {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+    p {
+      margin: 0.3rem;
+      color: white;
+    }
+  }
+  .map-card:hover {
+    z-index: 5;
+    background-color: #0000005a;
+  }
+}

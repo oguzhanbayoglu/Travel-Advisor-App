@@ -1,0 +1,53 @@
+.card {
+  box-shadow: 0 10px 80px #0000002f !important;
+  background-color: #121212 !important;
+  width: 23vw;
+
+  .card-content {
+    position: relative;
+    background-color: #232323;
+    color: white;
+    padding: 0;
+    padding-bottom: 0 !important;
+    margin: 0;
+    background-size: 100% 600%;
+    background-position: bottom;
+
+    .card-subcontent {
+      padding: 1rem;
+      backdrop-filter: blur(60px) saturate(700%);
+      background-color: #232323a7;
+      margin: 0;
+      height: 100%;
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h3 {
+        margin: 0.3rem 0 0.8rem 0;
+        width: 50%;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+    }
+
+    p {
+      margin: 0.4rem;
+    }
+
+    .phone-address {
+      margin-top: 1rem;
+      font-size: smaller;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      svg {
+        margin-right: 1rem;
+        height: 1rem;
+      }
+    }
+  }
+}

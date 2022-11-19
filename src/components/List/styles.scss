@@ -1,0 +1,48 @@
+.container {
+  padding: 1rem;
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 88vh;
+  width: 24vw;
+  position: relative;
+  background-color: #121212;
+  color: white;
+  .loading {
+    position: absolute;
+    top: calc(50% - 1.5rem);
+    left: calc(50% - 1.5rem);
+  }
+  h3 {
+    margin-left: 1.3rem;
+    margin-bottom: 2rem;
+  }
+  .formControl {
+    padding: 1rem;
+    justify-content: center;
+    width: 9vw;
+    .label {
+      margin-left: 1vw;
+      color: white;
+    }
+    .select {
+      border-radius: 2rem;
+      width: 9vw;
+      height: 2rem;
+      color: white;
+      svg {
+        color: white;
+      }
+      fieldset {
+        border-color: white;
+      }
+    }
+  }
+}
+
+.container::-webkit-scrollbar {
+  width: 0.5rem;
+}
+.container::-webkit-scrollbar-thumb {
+  background-color: rgba(221, 221, 221, 0.153);
+  border-radius: 5rem;
+}
